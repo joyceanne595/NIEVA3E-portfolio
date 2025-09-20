@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">MyPortfolio</div>
+      <ul class="nav-links">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="about" class="section">
+    <h1>About Me</h1>
+    <p>Hello! I'm a web developer passionate about creating beautiful and functional websites.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h1>Projects</h1>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h2>Project One</h2>
+        <p>A responsive website built with HTML, CSS, and JS.</p>
+      </div>
+      <div class="project-card">
+        <h2>Project Two</h2>
+        <p>A JavaScript game using canvas API.</p>
+      </div>
+      
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h1>Skills</h1>
+    <ul class="skills-list">
+      <li>HTML5 & CSS3</li>
+      <li>JavaScript (ES6+)</li>
+      <li>Responsive Design</li>
+      <li>React.js (optional)</li>
+      <li>Node.js (optional)</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="section">
+    <h1>Contact Me</h1>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 MyPortfolio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
